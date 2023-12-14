@@ -36,3 +36,76 @@
     transform: rotate(360deg);
   }
 }
+
+.currency-selection, .currency-selection-values {
+    background-color: #A5E1A0;
+    color: white;
+    font-weight: bold;
+    border-width: 0px;
+}
+
+
+/* .currency-selection-values,  */
+
+.currency-selection-values{
+    color:black;
+    font-weight: normal;
+}
+
+.currency-selection-values:hover,
+.currency-selection-values:focus,
+.currency-selection-values:active {
+    color:red;
+    background: linear-gradient(#000000, #000000);
+    background-color: white !important;
+  }
+
+
+.green-plus{
+    background-color: green;
+    color:white;
+    border-radius: 50%;
+    
+    padding-bottom: 20px;
+    line-height:24px;
+    font-weight: bolder;
+    font-size: 15pt;
+    width: 30px;
+    height: 30px;
+    vertical-align: top;
+    align-items: center;
+    border:none;
+    margin: auto;
+}
+
+.red-ecks{
+    background-color: rgb(185, 10, 10);
+    color:white;
+    border-radius: 50%;
+    
+    padding-bottom: 20px;
+    line-height:24px;
+    font-weight: bolder;
+    font-size: 15pt;
+    width: 30px;
+    height: 30px;
+    vertical-align: top;
+    align-items: center;
+    border:none;
+    margin: auto;
+}
+
+  /* select option:hover,
+    select option:focus,
+    select option:active {
+        background: linear-gradient(#000000, #000000);
+        background-color: #000000 !important; 
+        color: #ffed00 !important;
+    }
+
+    select option:checked {
+        background: linear-gradient(#d6d6d6, #d6d6d6);
+        background-color: #d6d6d6 !important; 
+        color: #000000 !important;
+    } 
+    */
